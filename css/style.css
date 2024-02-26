@@ -12,16 +12,18 @@ body {
 }
 
 h1 {
+    color: red;
     margin-top: 50px;
     font-family: 'Cedarville Cursive', cursive;
     font-size: 70px;
-    color: red;
+    text-shadow: 4px 4px 6px black;
 }
 
 h2 {
-    color: rgb(255, 255, 255);
+    color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 35px;
+    text-shadow: 4px 4px 6px black;
 }
 
 .play-section {
@@ -45,10 +47,11 @@ h2 {
 }
 
 .start-btn {
-    font-size: 30px;
     color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-shadow: 4px 4px 6px black;
 }
-
 
 .start-btn:hover {
     font-size: 40px;
@@ -64,6 +67,7 @@ h2 {
 }
 
 .option-btns {
+    color: white;
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 10px;
@@ -71,7 +75,7 @@ h2 {
 }
 
 .opt-btn {
-    border: 1px solid blue;
+    border: 1px solid white;
     border-radius: 5px;
     padding: 5px 10px;
     outline: none;
@@ -83,4 +87,10 @@ h2 {
 
 .play-container {
     background-color: grey;
+}
+
+.play-sound-btn, .mute-sound-btn {
+    background: none;
+    border: none;
+    color: white;
 }
