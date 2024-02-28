@@ -135,11 +135,11 @@ const textNodes = [
             },
             {
                 text: `Monaghan takes a seat at his desk. "Sobranies? Quite posh, no?"`,
-                nextText: 53,
+                nextText: 52,
             },
             {
                 text: `"Oi, no smoking in here".`,
-                nextText: 55,
+                nextText: 53,
             }
         ]
     },
@@ -152,12 +152,8 @@ const textNodes = [
                 nextText: 5,
             },
             {
-                text: `Monaghan takes out his notebook. "Tell me about your mother".`,
-                nextText: 54,
-            },
-            {
                 text: `Monaghan takes out his notebook. "Tell me about who's after you".`,
-                nextText: 55,
+                nextText: 54,
             }
         ]
     },
@@ -166,8 +162,8 @@ const textNodes = [
         text: `The woman's eyes narrowed at him. "You know the police aren't worth a damn here, Scott. They're not gonna help. Especially not when it's the bloody mayor". She began to take another drag.`,
         options: [
             {
-                text: `"Mayor Ryan? Are you off your rocker?"`,                                                
-                nextText: 56,
+                text: `"Mayor Ryan? Is that a joke?"`,                                                
+                nextText: 55,
             },
             {
                 text: `"Mayor Ryan? Are you sure?"`,
@@ -185,7 +181,7 @@ const textNodes = [
             },
             {
                 text: `Monaghan leans against the window. "What's your relation with Mayor Ryan"?`,
-                nextText: 57,
+                nextText: 7,
             }
         ]
     },
@@ -199,7 +195,7 @@ const textNodes = [
             },
             {
                 text: `"Tell me more about their affair".`,
-                nextText: 58,
+                nextText: 8,
             }
         ]
     },
@@ -213,13 +209,13 @@ const textNodes = [
             },
             {
                 text: `"I've heard enough".`,
-                nextText: 59,
+                nextText: 58,
             }
         ]
     },
     {
         id: 9,
-        text: `"Find whatever evidence you can and bring it me. My mother had ties to the English authorities and still a citizen of England. They'll want answers to her death. I'll provide them with whatever you find. And of course, I will pay you". Monaghan pondered the information he'd just received. Going against the Mayor would be pretty much going against the city. Such a task would be dangerous. But should he succeed, not only would he be collecting quite the reward. But he'll also putting a stop to the endless corruption within Vitanova. `,
+        text: `"Find whatever evidence you can and bring it me. My mother had ties to the English authorities and still a citizen of England. They'll want answers to her death. I'll provide them with whatever you find. And of course, I will pay you". Monaghan pondered the information he'd just received. Going against the Mayor would be pretty much going against the city. Such a task would be dangerous. But should he succeed, not only would he be collecting quite the reward. But he'll also putting a stop to the endless corruption within Vitanova.`,
         options: [
             {
                 text: `Monaghan takes the case.`,                                                
@@ -227,7 +223,155 @@ const textNodes = [
             },
             {
                 text: `Monaghan rejects the case.`,
-                nextText: 60,
+                nextText: 58,
+            }
+        ]
+    },
+    {
+        id: 50,
+        text: `Monaghan decides to not answer the door and call it a day. 'If it's important they can come back in the morning', the detective thought to himself as walked to the bedroom connected to his office. Game over. Restart and try for a different ending.`,
+        options: [
+            {
+                text: `Restart`,                                 
+                nextText: 1,
+            }
+        ]
+    },
+    {
+        id: 51,
+        text: `Monaghan decides that he can't be bothered with whatever this woman needed. "Closed for night", he says bluntly then closes the door before she can say anything. "Come back in the morning", he called out as he walked to the bedroom connected to his office. Game over. Restart and try for a different ending.`,
+        options: [
+            {
+                text: `Restart`,                                 
+                nextText: 1,
+            }
+        ]
+    },
+    {
+        id: 52,
+        text: `"What about it"? She came back standoffish. It was clear the woman wasn't here for small talk so he just shrugged off the topic.`,
+        options: [
+            {
+                text: `"Nothing. How may I help you"?`,                                 
+                nextText: 4,
+            }
+        ]
+    },
+    {
+        id: 53,
+        text: `The woman rolled her eyes and scoffed. "Fine". An annoyed look comes across her as she wordlessly stubs out the cigarette in the seemingly out of place ashtray on the detective's desk.`,
+        options: [
+            {
+                text: `Monaghan takes a seat at his desk. "May I help you?"`,
+                nextText: 61,
+            }
+        ]
+    },
+    {
+        id: 54,
+        text: `She hesitated. "It's Mayor Ryan that's after me".`,
+        options: [
+            {
+                text: `"Mayor Ryan? Is that a joke?"`,                                                
+                nextText: 55,
+            },
+            {
+                text: `"Mayor Ryan? Are you sure?"`,
+                nextText: 6,
+            }
+        ]
+    },
+    {
+        id: 55,
+        text: `She glared at the detective as she puffed out smoke once more. "No, detective. I was there when he killed her". Monaghan pulled out his notebook and got up to open the windown of his office slightly. Just enough for no rain to enter and for the room to not soak up the smell of tobacco.`,
+        options: [
+            {
+                text: `Monaghan takes a seat back at his desk. "What's your relation with Mayor Ryan"?`,                                                
+                nextText: 7,
+            },
+            {
+                text: `Monaghan leans against the window. "What's your relation with Mayor Ryan"?`,
+                nextText: 7,
+            }
+        ]
+    },
+    {
+        id: 58,
+        text: `This case way beyond Monaghan's capabilities. Solving mysteries was one thing but toppling a mayor and his city? He was just a detective, not MI6. Monaghan rejected the case. "I knew you wouldn't be any help". The woman got up, took her coat and stormed out of the office. Unfazed, Monaghan got up to lock the door behind her and called it a night. Game over. Restart and try for a different ending.`,
+        options: [
+            {
+                text: `Restart`,
+                nextText: 1,
+            }
+        ]
+    },
+    {
+        id: 61,
+        text: `"My mother's been murdered by someone and now they're after me". She spoke bluntly and emotionless.`,
+        options: [
+            {
+                text: `"This sounds like a job for the police, not a P.I."`,                                                
+                nextText: 70,
+            },
+            {
+                text: `Monaghan takes out his notebook. "Tell me about who's after you".`,
+                nextText: 71,
+            }
+        ]
+    },
+    {
+        id: 70,
+        text: `The woman's eyes narrowed at him. "You know the police aren't worth a damn here, Scott. They're not gonna help. Especially not when it's the bloody mayor".`,
+        options: [
+            {
+                text: `"Mayor Ryan? Is that a joke?"`,                                                
+                nextText: 80,
+            },
+            {
+                text: `"Mayor Ryan? Are you sure?"`,
+                nextText: 81,
+            }
+        ]
+    },
+    {
+        id: 80,
+        text: `She glared at the detective. "No, detective. I was there when he killed her". Monaghan pulled out his notebook.`,
+        options: [
+            {
+                text: `Monaghan takes a seat back at his desk. "What's your relation with Mayor Ryan"?`,                                                
+                nextText: 83,
+            },
+            {
+                text: `Monaghan leans against the window. "What's your relation with Mayor Ryan"?`,
+                nextText: 83,
+            }
+        ]
+    },
+    {
+        id: 81,
+        text: `"Very sure. I was there when he killed her". Monaghan pulled out his notebook.`,
+        options: [
+            {
+                text: `Monaghan takes a seat back at his desk. "What's your relation with Mayor Ryan"?`,                                                
+                nextText: 83,
+            },
+            {
+                text: `Monaghan leans against the window. "What's your relation with Mayor Ryan"?`,
+                nextText: 83,
+            }
+        ]
+    },
+    {
+        id: 83,
+        text: `"I'm his daughter. Product of an affair". Monaghan was surprised by this revelation. He took the mayor for a committed and honest man. But then again, not everything is as it seems in Vitanova.`,
+        options: [
+            {
+                text: `"So he murdered your mother, and now he's after you. Why"?`,                                                
+                nextText: 8,
+            },
+            {
+                text: `"Tell me more about their affair".`,
+                nextText: 8,
             }
         ]
     },
